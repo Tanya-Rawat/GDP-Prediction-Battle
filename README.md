@@ -50,6 +50,10 @@ Additional historical indicators include:
 │   └── predictions_2023.csv       # Contains predictions and actual GDP data
 ├── data/
 │   └── preprocessed_data.csv      # Preprocessed dataset
+├── src/
+│   └── data_preprocessing.py      # Preprocessing dataset
+│   └── eda.py                     # EDA on dataset
+│   └── models.py                  # Models file to create .pkl file for all three models
 ├── main.py                        # Main Streamlit app
 ├── requirements.txt               # List of required Python libraries
 └── README.md                      # Project documentation
